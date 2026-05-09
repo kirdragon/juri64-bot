@@ -5,7 +5,7 @@ from aiogram.filters.command import Command
 
 logging.basicConfig(level=logging.INFO)
 
-bot=Bot(token="8786369717:AAFDpPlwh8VCqzKnS2gzmJeaIwzuVeWQnCA")
+bot=Bot(token="64")
 print ("zov")
 dp=Dispatcher()
 @dp.message(Command("start"))
