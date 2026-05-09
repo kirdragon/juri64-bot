@@ -6,9 +6,8 @@ from aiogram.filters.command import Command
 logging.basicConfig(level=logging.INFO)
 
 bot=Bot(token="8786369717:AAFDpPlwh8VCqzKnS2gzmJeaIwzuVeWQnCA")
-
+print ("test git")
 dp=Dispatcher()
-
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
     await message.answer("Hello!")
